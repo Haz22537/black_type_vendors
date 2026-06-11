@@ -1,0 +1,38 @@
+# Client data — never commit
+data/raw/
+data/final/
+
+# Interim data — optional, can be regenerated
+# Comment out these lines if you want to commit interim outputs
+data/interim/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.env
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs — keep structure, ignore contents
+logs/*.log
+logs/*.csv
+!logs/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
